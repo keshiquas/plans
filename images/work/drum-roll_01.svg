@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="250mm"
-   height="180mm"
-   viewBox="0 0 250 180"
+   width="230mm"
+   height="145mm"
+   viewBox="0 0 230 145"
    version="1.1"
    id="svg1041"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.8359144"
-     inkscape:cx="472.44094"
-     inkscape:cy="340.15748"
+     inkscape:cx="472.44093"
+     inkscape:cy="340.15747"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -62,19 +62,19 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-117)">
+     transform="translate(0,-152)">
     <rect
        style="fill:#29ae00;fill-opacity:1;stroke:none;stroke-width:0.14554435;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1654"
        width="35.320755"
        height="14.603773"
-       x="184.75473"
-       y="178.89624"
+       x="180.14304"
+       y="184.80496"
        rx="2"
        ry="1.5636363" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.28285146px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 26.113208,259.15095 H 186.11321"
+       d="M 21.501519,265.05968 H 181.50152"
        id="path1588"
        inkscape:connector-curvature="0" />
     <path
@@ -92,28 +92,28 @@
        inkscape:rounded="0.003"
        inkscape:randomized="0.0119475"
        d="m 50.097641,40.064809 c -0.05195,9.27e-4 -8.747735,-14.949714 -8.722371,-14.994817 0.02536,-0.0451 17.310206,-0.191211 17.336631,-0.146493 0.02642,0.04472 -8.562308,15.140383 -8.61426,15.14131 z"
-       transform="matrix(0,0.09772605,0.16957266,0,179.31931,254.25511)"
+       transform="matrix(0,0.09772605,0.16957266,0,174.70762,260.16384)"
        inkscape:transform-center-x="-0.41660091"
        inkscape:transform-center-y="-0.0025805156" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 36.113208,249.15095 h 9.999999 v -30 h 19.999999 v 30 h 20 v -30 h 20.000004 v 30 h 20 v -30 h 20 v 30 h 20"
+       d="m 31.501519,255.05968 h 9.999999 v -30 h 19.999999 v 30 h 20 v -30 h 20.000003 v 30 h 20 v -30 h 20 v 30 h 20"
        id="path1594"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.265, 1.59;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 46.113206,219.15095 v -30"
+       d="m 41.501517,225.05968 v -30"
        id="path1596"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.265, 1.59;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 86.113205,219.15095 v -30"
+       d="m 81.501516,225.05968 v -30"
        id="path1598"
        inkscape:connector-curvature="0" />
     <path
        inkscape:transform-center-y="-0.0025805156"
        inkscape:transform-center-x="-0.41660091"
-       transform="matrix(0,0.09772605,0.16957266,0,79.319311,184.25511)"
+       transform="matrix(0,0.09772605,0.16957266,0,74.707622,190.16384)"
        d="m 50.097641,40.064809 c -0.05195,9.27e-4 -8.747735,-14.949714 -8.722371,-14.994817 0.02536,-0.0451 17.310206,-0.191211 17.336631,-0.146493 0.02642,0.04472 -8.562308,15.140383 -8.61426,15.14131 z"
        inkscape:randomized="0.0119475"
        inkscape:rounded="0.003"
@@ -143,33 +143,33 @@
        inkscape:rounded="0.003"
        inkscape:randomized="0.0119475"
        d="m 50.097641,40.064809 c -0.05195,9.27e-4 -8.747735,-14.949714 -8.722371,-14.994817 0.02536,-0.0451 17.310206,-0.191211 17.336631,-0.146493 0.02642,0.04472 -8.562308,15.140383 -8.61426,15.14131 z"
-       transform="matrix(0,0.09772605,-0.16957266,0,52.907103,184.25511)"
+       transform="matrix(0,0.09772605,-0.16957266,0,48.295414,190.16384)"
        inkscape:transform-center-x="0.41660136"
        inkscape:transform-center-y="-0.0025805156" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.16500001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 46.113206,189.15095 H 86.113205"
+       d="M 41.501517,195.05968 H 81.501516"
        id="path1604"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="55.943398"
-       y="187.62265"
+       x="51.331707"
+       y="193.53137"
        id="text1608"><tspan
          sodipodi:role="line"
          id="tspan1606"
-         x="55.943398"
-         y="187.62265"
+         x="51.331707"
+         y="193.53137"
          style="font-size:7.05555534px;stroke-width:0.26458332">cycle</tspan></text>
     <path
        inkscape:connector-curvature="0"
        id="path1610"
-       d="m 46.113207,269.15095 v -20"
+       d="m 41.501518,275.05968 v -20"
        style="fill:none;stroke:#000000;stroke-width:0.21637161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.21637162, 1.29822972;stroke-dashoffset:0;stroke-opacity:1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.21637161;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.21637162, 1.29822972;stroke-dashoffset:0;stroke-opacity:1"
-       d="m 66.113207,269.15095 v -20"
+       d="m 61.501518,275.05968 v -20"
        id="path1612"
        inkscape:connector-curvature="0" />
     <path
@@ -187,13 +187,13 @@
        inkscape:rounded="0.003"
        inkscape:randomized="0.0119475"
        d="m 50.097641,40.064809 c -0.05195,9.27e-4 -8.747735,-14.949714 -8.722371,-14.994817 0.02536,-0.0451 17.310206,-0.191211 17.336631,-0.146493 0.02642,0.04472 -8.562308,15.140383 -8.61426,15.14131 z"
-       transform="matrix(0,0.09772605,0.16957266,0,59.319311,264.25511)"
+       transform="matrix(0,0.09772605,0.16957266,0,54.707622,270.16384)"
        inkscape:transform-center-x="-0.41660091"
        inkscape:transform-center-y="-0.0025805156" />
     <path
        inkscape:transform-center-y="-0.0025805156"
        inkscape:transform-center-x="0.41660136"
-       transform="matrix(0,0.09772605,-0.16957266,0,52.907103,264.25511)"
+       transform="matrix(0,0.09772605,-0.16957266,0,48.295414,270.16384)"
        d="m 50.097641,40.064809 c -0.05195,9.27e-4 -8.747735,-14.949714 -8.722371,-14.994817 0.02536,-0.0451 17.310206,-0.191211 17.336631,-0.146493 0.02642,0.04472 -8.562308,15.140383 -8.61426,15.14131 z"
        inkscape:randomized="0.0119475"
        inkscape:rounded="0.003"
@@ -211,70 +211,70 @@
     <path
        inkscape:connector-curvature="0"
        id="path1618"
-       d="M 46.113206,269.15095 H 66.113207"
+       d="M 41.501517,275.05968 H 61.501518"
        style="fill:none;stroke:#000000;stroke-width:0.11667263;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        id="text1622"
-       y="275.26416"
-       x="49.320755"
+       y="281.17288"
+       x="44.709064"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="font-size:5.64444447px;stroke-width:0.26458332"
-         y="275.26416"
-         x="49.320755"
+         y="281.17288"
+         x="44.709064"
          id="tspan1620"
          sodipodi:role="line">duty</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="188.45285"
-       y="186.72644"
+       x="183.84116"
+       y="192.63516"
        id="text1630"><tspan
          sodipodi:role="line"
          id="tspan1628"
-         x="188.45285"
-         y="186.72644"
+         x="183.84116"
+         y="192.63516"
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">MIDIクロック</tspan></text>
     <rect
        ry="2"
        rx="2"
-       y="264.39624"
-       x="188.49057"
+       y="270.30496"
+       x="183.87888"
        height="24.452827"
        width="43.30595"
        id="rect1656"
        style="fill:#ae4c00;fill-opacity:1;stroke:none;stroke-width:0.14172474;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        id="text1660"
-       y="271"
-       x="194.22643"
+       y="276.90872"
+       x="189.61473"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
-         y="271"
-         x="194.22643"
+         y="276.90872"
+         x="189.61473"
          id="tspan1658"
          sodipodi:role="line">Gate Time</tspan></text>
     <text
        id="text1664"
-       y="278.11322"
-       x="199.21675"
+       y="284.02194"
+       x="194.60506"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
-         y="278.11322"
-         x="199.21675"
+         y="284.02194"
+         x="194.60506"
          id="tspan1662"
          sodipodi:role="line">Drum : 5%付近</tspan></text>
     <text
        id="text1668"
-       y="284.16357"
-       x="199.21675"
+       y="290.0723"
+       x="194.60506"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
-         y="284.16357"
-         x="199.21675"
+         y="290.0723"
+         x="194.60506"
          id="tspan1666"
          sodipodi:role="line">Tremoro : 95%付近</tspan></text>
     <rect
@@ -282,8 +282,8 @@
        id="rect1703"
        width="78.962273"
        height="4.5849037"
-       x="105.79245"
-       y="183.90567"
+       x="101.18076"
+       y="189.81439"
        rx="1.0000006"
        ry="1.0000006" />
     <path
@@ -301,14 +301,14 @@
        inkscape:rounded="0.003"
        inkscape:randomized="0.0119475"
        d="m 92.238288,24.449783 c 0.02783,0.01675 0.02715,10.719942 -8.31e-4,10.735923 -0.02798,0.01598 -9.349877,-5.364593 -9.350077,-5.397089 -2e-4,-0.03249 9.323079,-5.355587 9.350908,-5.338834 z"
-       transform="matrix(1.4505468,0,0,0.82561931,-28.502944,161.73736)"
+       transform="matrix(1.4505468,0,0,0.82561931,-33.114633,167.64609)"
        inkscape:transform-center-x="2.2410265"
        inkscape:transform-center-y="0.034221458" />
     <rect
        ry="1.0000006"
        rx="1.0000006"
-       y="272.03775"
-       x="105.79245"
+       y="277.94647"
+       x="101.18076"
        height="4.5849037"
        width="78.962273"
        id="rect1707"
@@ -316,7 +316,7 @@
     <path
        inkscape:transform-center-y="0.034221458"
        inkscape:transform-center-x="2.2410265"
-       transform="matrix(1.4505468,0,0,0.82561931,-28.502944,249.86943)"
+       transform="matrix(1.4505468,0,0,0.82561931,-33.114633,255.77816)"
        d="m 92.238288,24.449783 c 0.02783,0.01675 0.02715,10.719942 -8.31e-4,10.735923 -0.02798,0.01598 -9.349877,-5.364593 -9.350077,-5.397089 -2e-4,-0.03249 9.323079,-5.355587 9.350908,-5.338834 z"
        inkscape:randomized="0.0119475"
        inkscape:rounded="0.003"
@@ -334,61 +334,61 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46666622px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="17.660378"
-       y="138.90567"
+       x="5.6988087"
+       y="162.97293"
        id="text1713"><tspan
          sodipodi:role="line"
          id="tspan1711"
-         x="17.660378"
-         y="138.90567"
-         style="font-size:8.46666622px;stroke-width:0.26458332">Drum Roll トリガLFO</tspan></text>
+         x="5.6988087"
+         y="162.97293"
+         style="font-size:8.46666622px;stroke-width:0.26458332">Drum Roll / Tremolo トリガLFO</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="168.86792"
-       y="264.90567"
+       x="164.25623"
+       y="270.81439"
        id="text1717"><tspan
          sodipodi:role="line"
          id="tspan1715"
-         x="168.86792"
-         y="264.90567"
+         x="164.25623"
+         y="270.81439"
          style="font-size:5.64444447px;stroke-width:0.26458332">t[s]</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="9.7547169"
-       y="250.3019"
+       x="5.1430278"
+       y="256.21063"
        id="text1721"><tspan
          sodipodi:role="line"
          id="tspan1719"
-         x="9.7547169"
-         y="250.3019"
+         x="5.1430278"
+         y="256.21063"
          style="font-size:5.64444447px;stroke-width:0.26458332">Low</tspan></text>
     <text
        id="text1725"
-       y="221.09435"
-       x="9.7547169"
+       y="227.00307"
+       x="5.1430278"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="font-size:5.64444447px;stroke-width:0.26458332"
-         y="221.09435"
-         x="9.7547169"
+         y="227.00307"
+         x="5.1430278"
          id="tspan1723"
          sodipodi:role="line">High</tspan></text>
     <path
        style="fill:#000000;fill-opacity:0;stroke:#ff3912;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 46.113207,249.15095 v -30"
+       d="m 41.501518,255.05968 v -30"
        id="path1727"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#ff4512;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 66.113207,219.15095 v 30"
+       d="m 61.501518,225.05968 v 30"
        id="path1729"
        inkscape:connector-curvature="0" />
     <path
        inkscape:transform-center-y="-0.41660011"
        inkscape:transform-center-x="0.0025842981"
-       transform="matrix(0.09772605,0,0,-0.16957266,41.217367,225.94485)"
+       transform="matrix(0.09772605,0,0,-0.16957266,36.605678,231.85358)"
        d="m 50.097641,40.064809 c -0.05195,9.27e-4 -8.747735,-14.949714 -8.722371,-14.994817 0.02536,-0.0451 17.310206,-0.191211 17.336631,-0.146493 0.02642,0.04472 -8.562308,15.140383 -8.61426,15.14131 z"
        inkscape:randomized="0.0119475"
        inkscape:rounded="0.003"
@@ -418,115 +418,115 @@
        inkscape:rounded="0.003"
        inkscape:randomized="0.0119475"
        d="m 50.097641,40.064809 c -0.05195,9.27e-4 -8.747735,-14.949714 -8.722371,-14.994817 0.02536,-0.0451 17.310206,-0.191211 17.336631,-0.146493 0.02642,0.04472 -8.562308,15.140383 -8.61426,15.14131 z"
-       transform="matrix(0.09772605,0,0,0.16957266,61.217367,242.35705)"
+       transform="matrix(0.09772605,0,0,0.16957266,56.605678,248.26578)"
        inkscape:transform-center-x="0.0025842981"
        inkscape:transform-center-y="0.41660389" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="44.751869"
-       y="213.11322"
+       x="40.140179"
+       y="219.02194"
        id="text1737"><tspan
          sodipodi:role="line"
          id="tspan1735"
-         x="44.751869"
-         y="213.11322"
+         x="40.140179"
+         y="219.02194"
          style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332">立ち上がりエッジ</tspan><tspan
          sodipodi:role="line"
-         x="44.751869"
-         y="217.52295"
+         x="40.140179"
+         y="223.43167"
          style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan1739">NoteOn</tspan></text>
     <text
        id="text1745"
-       y="238.92455"
-       x="65.808479"
+       y="244.83327"
+       x="61.196789"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777767px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         y="238.92455"
-         x="65.808479"
+         y="244.83327"
+         x="61.196789"
          id="tspan1741"
          sodipodi:role="line">立ち下がりエッジ</tspan><tspan
          id="tspan1743"
          style="font-size:3.52777767px;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-         y="243.33427"
-         x="65.808479"
+         y="249.243"
+         x="61.196789"
          sodipodi:role="line">NoteOff</tspan></text>
     <rect
        style="fill:#ae9e00;fill-opacity:1;stroke:none;stroke-width:0.16649467;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1652"
        width="34.985195"
        height="41.773582"
-       x="123.57504"
-       y="166.57608"
+       x="118.96336"
+       y="172.4848"
        rx="2"
        ry="2" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="129.3109"
-       y="173.17986"
+       x="124.69921"
+       y="179.08858"
        id="text1626"><tspan
          sodipodi:role="line"
          id="tspan1624"
-         x="129.3109"
-         y="173.17986"
+         x="124.69921"
+         y="179.08858"
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">Roll 選択</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="134.30122"
-       y="180.29305"
+       x="129.68953"
+       y="186.20177"
        id="text1634"><tspan
          sodipodi:role="line"
          id="tspan1632"
-         x="134.30122"
-         y="180.29305"
+         x="129.68953"
+         y="186.20177"
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">8分</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="134.30122"
-       y="186.3434"
+       x="129.68953"
+       y="192.25212"
        id="text1638"><tspan
          sodipodi:role="line"
          id="tspan1636"
-         x="134.30122"
-         y="186.3434"
+         x="129.68953"
+         y="192.25212"
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">8分3連</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="134.20808"
-       y="192.31192"
+       x="129.59639"
+       y="198.22064"
        id="text1642"><tspan
          sodipodi:role="line"
          id="tspan1640"
-         x="134.20808"
-         y="192.31192"
+         x="129.59639"
+         y="198.22064"
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">16分</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="134.20808"
-       y="198.36224"
+       x="129.59639"
+       y="204.27097"
        id="text1646"><tspan
          sodipodi:role="line"
          id="tspan1644"
-         x="134.20808"
-         y="198.36224"
+         x="129.59639"
+         y="204.27097"
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">16分3連</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="134.21655"
-       y="204.33078"
+       x="129.60486"
+       y="210.2395"
        id="text1650"><tspan
          sodipodi:role="line"
          id="tspan1648"
-         x="134.21655"
-         y="204.33078"
+         x="129.60486"
+         y="210.2395"
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">32分</tspan></text>
   </g>
 </svg>

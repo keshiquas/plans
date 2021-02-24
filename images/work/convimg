@@ -1,0 +1,32 @@
+#!/bin/bash
+
+#指定画像フォーマット変換(for ループ)
+# テスト
+#   convimg svg jpg
+# 本番
+#   -notest で変換本番
+#   convimg -notest svg jpg
+
+if [ $1 = -notest ]
+then
+	#for IMG in $(ls) 
+	for IMG in $(find . -name "*.${2}")
+	do
+		#echo convert $1	to	$2
+		TMP=$(echo $IMG | sed "s/${2}/${3}/")
+		echo convert	$IMG	to	.${TMP}
+		convert $IMG .${TMP}
+	done
+else
+	#for IMG in $(ls)
+	for IMG in $(find . -name "*.${1}")
+	do
+		#echo convert $IMG
+                #TMP=$(basename $IMG).${2}
+                #TMP=$(dirname $IMG)
+		#TMP=$(echo $IMG | sed "s/${TMP}//")
+                #TMP=$TMP.${2}
+		TMP=$(echo $IMG | sed "s/${1}/${2}/")
+		echo convert	$IMG	to	.${TMP}	testmode
+	done
+fi

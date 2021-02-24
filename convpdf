@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#asciidoctor-pdf -r asciidoctor-diagram -r asciidoctor-pdf-cjk ファイル名.adoc
+
+
+for DOCNAME in $(find ./ -name "*.adoc")
+    do
+        asciidoctor-pdf -r asciidoctor-diagram -r asciidoctor-pdf-cjk $DOCNAME
+    done
+
+

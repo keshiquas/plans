@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5306373"
-     inkscape:cx="528"
-     inkscape:cy="408"
+     inkscape:zoom="2.0964912"
+     inkscape:cx="345.8159"
+     inkscape:cy="198"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -139,15 +139,6 @@
        id="path838"
        d="m 27.770014,244.41775 h 5.719844 c 0.552576,0 0.99743,0.53541 0.99743,1.20048 v 19.19746 c 0,0.66507 -0.444854,1.20049 -0.99743,1.20049 h -5.719844 c -0.552576,0 -0.997428,-0.53542 -0.997428,-1.20049 v -19.19746 c 0,-0.66507 0.444852,-1.20048 0.997428,-1.20048 z"
        style="fill:#808080;fill-opacity:1;stroke:#e7e7e7;stroke-width:0.21885212;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       ry="1.023423"
-       rx="0.38976178"
-       y="244.41777"
-       x="40.546879"
-       height="39.667759"
-       width="9.9169464"
-       id="rect1029"
-       style="fill:#ddff55;fill-opacity:1;stroke:#c8c8c8;stroke-width:0.12631592;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="fill:#808080;fill-opacity:1;stroke:#e7e7e7;stroke-width:0.21885212;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 48.405187,244.41775 h 5.719845 c 0.552576,0 0.99743,0.53541 0.99743,1.20048 v 19.19746 c 0,0.66507 -0.444854,1.20049 -0.99743,1.20049 h -5.719845 c -0.552576,0 -0.997428,-0.53542 -0.997428,-1.20049 v -19.19746 c 0,-0.66507 0.444852,-1.20048 0.997428,-1.20048 z"
@@ -504,15 +495,6 @@
        width="100%"
        id="use2230"
        transform="translate(20.234531,-9.0308488e-6)"
-       xlink:href="#rect815"
-       inkscape:tiled-clone-of="#rect815"
-       y="0"
-       x="0" />
-    <use
-       height="100%"
-       width="100%"
-       id="use2232"
-       transform="translate(30.552118,-9.0308488e-6)"
        xlink:href="#rect815"
        inkscape:tiled-clone-of="#rect815"
        y="0"

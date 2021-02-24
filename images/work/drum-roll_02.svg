@@ -10,8 +10,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="250mm"
-   height="180mm"
-   viewBox="0 0 250 180"
+   height="170mm"
+   viewBox="0 0 250 170"
    version="1.1"
    id="svg1041"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.8359144"
-     inkscape:cx="364.91404"
-     inkscape:cy="339.76418"
+     inkscape:cx="346.61807"
+     inkscape:cy="340.15747"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -56,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -64,7 +64,7 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-117)">
+     transform="translate(0,-127)">
     <rect
        ry="1.4989889"
        rx="1.4722222"
@@ -280,14 +280,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#fcfcfc;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="9.9429674"
+       x="14.266426"
        y="165.12183"
        id="text1806"><tspan
          sodipodi:role="line"
          id="tspan1804"
-         x="9.9429674"
+         x="14.266426"
          y="165.12183"
-         style="fill:#fcfcfc;fill-opacity:1;stroke-width:0.26458332">トリガLFO</tspan></text>
+         style="fill:#fcfcfc;fill-opacity:1;stroke-width:0.26458332">LFO</tspan></text>
     <path
        style="fill:none;stroke:#0016ee;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 36.317054,286.99999 V 266.06181"
@@ -324,7 +324,7 @@
        id="path1826"
        inkscape:connector-curvature="0" />
     <rect
-       style="fill:#ffca1b;fill-opacity:0.4744682;stroke:none;stroke-width:0.11974799;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:#ffca1b;fill-opacity:0.47446822;stroke:none;stroke-width:0.11974799;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1832"
        width="53.999996"
        height="13.999999"
@@ -346,17 +346,17 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:1.25;font-family:monospace;-inkscape-font-specification:monospace;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="12.935709"
-       y="267.37463"
+       x="11.206326"
+       y="267.0864"
        id="text1810"><tspan
          sodipodi:role="line"
          id="tspan1808"
-         x="12.935709"
-         y="267.37463"
+         x="11.206326"
+         y="267.0864"
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">出力</tspan><tspan
          sodipodi:role="line"
-         x="12.935709"
-         y="270.9024"
+         x="11.206326"
+         y="270.61417"
          style="fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
          id="tspan1812">NoteOn</tspan></text>
   </g>
