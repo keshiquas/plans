@@ -436,6 +436,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
+<li><a href="#_主な外観">主な外観</a>
+<ul class="sectlevel2">
+<li><a href="#_マスターユニット">マスターユニット</a></li>
+<li><a href="#_マトリクスユニット">マトリクスユニット</a></li>
+<li><a href="#_コントロールユニット">コントロールユニット</a></li>
+<li><a href="#_全体">全体</a></li>
+</ul>
+</li>
 <li><a href="#_現状の音色エディットにまつわる色々な問題点">現状の音色エディットにまつわる色々な問題点</a>
 <ul class="sectlevel2">
 <li><a href="#_配置の問題">配置の問題</a></li>
@@ -462,6 +470,93 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
+<h2 id="_主な外観">主な外観</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_マスターユニット">マスターユニット</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>マスターユニットには液晶画面と各種ボタンが備わる。</p>
+</li>
+<li>
+<p>音色ライブラリの管理、エクスクルーシブの送受信</p>
+</li>
+<li>
+<p>ユーザーが自身の所有する音源への対応モジュールを作成できるエディタ作成</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_マトリクスユニット">マトリクスユニット</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>モード(ページ)の切り替えは、マトリクス状にボタンを配置(テンキーのようなもの)したマトリクスユニットにて行う。</p>
+</li>
+<li>
+<p>マトリクスキーの上辺と左辺に細長いディスプレイを配置し、縦軸、横軸の項目を表示</p>
+</li>
+<li>
+<p>左上に階層1つ上に抜けるエスケープキーを配置。</p>
+</li>
+<li>
+<p>シンセの内部モジュールのパッチング指定など、接続関連の操作も担当する</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_コントロールユニット">コントロールユニット</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>エディットにはモード(ページ)があり、それは階層構造とする</p>
+</li>
+<li>
+<p>操作子は 8個 + 1個 を1ユニットとする。このユニットを操作子ユニットとする。モード(ページ)内のパラメータは、この操作子ユニットを使用してエディットする</p>
+</li>
+<li>
+<p>1モード(ページ)内に9以上のパラメータが必要な場合は同ページ内での8パラメータを1セットとした単位での切り替えとする</p>
+</li>
+<li>
+<p>操作子ユニットは複数増設可能とする。増設した場合、各ユニット毎にカレントなモード(ページ)を持つ。すなわち操作子ユニットを1つ増設する毎に同時にエディットできるモードが1つ増える。</p>
+</li>
+<li>
+<p>1ユニットの中に含まれるロータリーエンコーダ 8 + 1 は、1個単位で取り外しが可能。消耗品なので、ユーザーが簡単に交換、メンテナンスできるようにする。</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_全体">全体</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>マスターユニット及びマトリクスユニットは、1ユニットのみ必要</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>マスターユニットに音色ライブラリアン機能を持たせることにより、もしVSTプラグイン対応したとしても
+個々の音源ごとにVSTプラグインに追加モジュールを用意する必要はなく、
+コントローラに対するVSTプラグイン一つを作れば済む。</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/Editor_01.jpg" alt="800" width="600">
+</div>
+<div class="title">Figure 1. 上 マトリクスユニット、マスターユニット : 下 コントロールユニット</div>
+</div>
+<div class="paragraph">
+<p>音色エディタの抽象化はかなり難易度が高く、レイアウトはまだかなりの検討を要する。</p>
+</div>
+<div style="page-break-after: always;"></div>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_現状の音色エディットにまつわる色々な問題点">現状の音色エディットにまつわる色々な問題点</h2>
 <div class="sectionbody">
 <div class="sect2">
@@ -476,20 +571,21 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="content">
 <img src="images/rack01.jpg" alt="rack01">
 </div>
-<div class="title">Figure 1. ラックが2列くらいまでならなんとか近くに置ける</div>
+<div class="title">Figure 2. ラックが2列くらいまでならなんとか近くに置ける</div>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/rack02.jpg" alt="rack02">
 </div>
-<div class="title">Figure 2. このあたりまで増えると、もうエディットに移動が伴う</div>
+<div class="title">Figure 3. このあたりまで増えると、もうエディットに移動が伴う</div>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/rack03.jpg" alt="rack03">
 </div>
-<div class="title">Figure 3. Hans Zimmer 氏のスタジオ。機材ラックは、もはや遥か遠くに</div>
+<div class="title">Figure 4. Hans Zimmer 氏のスタジオ。機材ラックは、もはや遥か遠くに</div>
 </div>
+<div style="page-break-after: always;"></div>
 </div>
 <div class="sect2">
 <h3 id="_音源の操作パネルの問題">音源の操作パネルの問題</h3>
@@ -501,7 +597,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="content">
 <img src="images/YAMAHA_FS1R.jpg" alt="800" width="600">
 </div>
-<div class="title">Figure 4. YAMAHAのFS1R  FM+フォルマントフィルターと、かなり複雑なシンセ機構搭載にも関わらず、本体パネルではその音色をフルエディット不可能</div>
+<div class="title">Figure 5. YAMAHAのFS1R  FM+フォルマントフィルターと、かなり複雑なシンセ機構搭載にも関わらず、本体パネルではその音色をフルエディット不可能</div>
 </div>
 <div class="paragraph">
 <p>採用してはいけない操作子として、「絶対値指定タイプ」が挙げられる。
@@ -527,15 +623,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/NordRack2.gif" alt="800" width="600">
+<img src="images/NordRack2.jpg" alt="800" width="600">
 </div>
-<div class="title">Figure 5. 悪い例 : NordRack2 絶対値指定の可変抵抗ノブになっている。これでは登録された音色を呼び出し、ノブを動かした時点でその値が「元の値を考慮することなく」更新されてしまう</div>
+<div class="title">Figure 6. 悪い例 : NordRack2 絶対値指定の可変抵抗ノブになっている。これでは登録された音色を呼び出し、ノブを動かした時点でその値が「元の値を考慮することなく」更新されてしまう</div>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/NordRack3.jpg" alt="800" width="600">
 </div>
-<div class="title">Figure 6. 対してこちらは良い例 : NordRack3 ノブは相対値指定タイプのロータリエンコーダが採用されている。メモリーされた音色を呼び出すと、ロータリーエンコーダの回りに配したLEDが現在値を示す。ノブを操作すると現在値からの増減で相対的に行われるため、前に設定登録した値から継続的に作業が行える。</div>
+<div class="title">Figure 7. 対してこちらは良い例 : NordRack3 ノブは相対値指定タイプのロータリエンコーダが採用されている。メモリーされた音色を呼び出すと、ロータリーエンコーダの回りに配したLEDが現在値を示す。ノブを操作すると現在値からの増減で相対的に行われるため、前に設定登録した値から継続的に作業が行える。</div>
 </div>
 <div class="paragraph">
 <p>メンテナンス上の問題もある。
@@ -546,12 +642,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="content">
 <img src="images/YAMAHA_ProMix01.png" alt="800" width="600">
 </div>
-<div class="title">Figure 7. YAMAHAのデジタルミキサー ProMix01  フェーダーやノブの不具合に泣かされた</div>
+<div class="title">Figure 8. YAMAHAのデジタルミキサー ProMix01  フェーダーやノブの不具合に泣かされた</div>
 </div>
 <div class="paragraph">
 <p>事実、個人的に所有するシンセ類は常にどこかの操作子やコネクタ、スイッチなどが
 トラブルを抱えており、万全の状態で作曲作業をした事自体ほとんど無い。</p>
 </div>
+<div style="page-break-after: always;"></div>
 </div>
 <div class="sect2">
 <h3 id="_音色ライブラリの管理">音色ライブラリの管理</h3>
@@ -567,13 +664,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="content">
 <img src="images/Opcode_Galaxy01.jpg" alt="640" width="480">
 </div>
-<div class="title">Figure 8. OPCODE社 Galaxy Plus  OPCODE社の製品は1999年を最後に開発を停止</div>
+<div class="title">Figure 9. OPCODE社 Galaxy Plus  OPCODE社の製品は1999年を最後に開発を停止</div>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="images/Opcode_Galaxy02.jpg" alt="640" width="480">
 </div>
-<div class="title">Figure 9. 同ライブラリアン</div>
+<div class="title">Figure 10. 同ライブラリアン</div>
 </div>
 <div class="paragraph">
 <p>音源のシンセサイズ方式はそれぞれ独自仕様なので、市販されている様々な音源に
@@ -586,6 +683,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 完全なエディタを作れない以上、結局音源を直接操作する必要が生じ、エディタソフトの
 意味は無くなる。</p>
 </div>
+<div style="page-break-after: always;"></div>
 </div>
 <div class="sect2">
 <h3 id="_pcソフトウェアの操作性の問題">PCソフトウェアの操作性の問題</h3>
@@ -597,7 +695,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="content">
 <img src="images/Emagic_SoundDiver.jpg" alt="800" width="600">
 </div>
-<div class="title">Figure 10. Emagic社 Sound Diver  スクロールバーに注目。全体のごく一部しか表示されていない</div>
+<div class="title">Figure 11. Emagic社 Sound Diver  スクロールバーに注目。全体のごく一部しか表示されていない</div>
 </div>
 <div class="paragraph">
 <p>PCの画面上に、実機のつまみを再現してそれをマウスのドラッグで操作するような
@@ -627,6 +725,7 @@ VSTプラグイン自体はSDKを使ってプログラミングする必要が�
 だが、音色パラメータの変更は、どの作業段階においても常に必要とされるため、
 PC上で現在扱っているソフトウェアの切り替え作業に頻繁に手間と時間をとられてしまう。</p>
 </div>
+<div style="page-break-after: always;"></div>
 </div>
 </div>
 </div>
@@ -664,7 +763,7 @@ PC上で現在扱っているソフトウェアの切り替え作業に頻繁に
 </ol>
 </div>
 <div class="paragraph">
-<p>汎用化はシンセエディターにおいては少々難しい。
+<p>汎用化はシンセエディターにおいてはかなり難しい。
 シンセサイザーはその音源方式がそれぞれ独特のデザインであり、
 そのため音色エディットに必要となるパラメータも独特のものとなる。</p>
 </div>
@@ -690,9 +789,9 @@ PC上で現在扱っているソフトウェアの切り替え作業に頻繁に
 <div class="paragraph">
 <p>サンプルは非常にサイズが大きいのでMIDIでの転送は実用的ではない。
 必然、別の転送インターフェースを使うべきだが、大半のサンプラーに
-搭載されているインターフェースはSCSIが多い。
+搭載されているインターフェースは今な亡きSCSIが多い。
 おそらく機種毎の独自のプロトコルを使ってサンプルのデータをやりとりするため
-対応が難しい。</p>
+対応は非常に困難。</p>
 </div>
 <div class="paragraph">
 <p>モジュラーシンセについては、まず、
@@ -713,79 +812,13 @@ DSP占有率やメモリ占有率はどうなっているか、等の情報を�
 それらを手の届く近くの場所に配置するしかなくなる。</p>
 </div>
 </div>
-<div class="sect3">
-<h4 id="_操作子ユニット">操作子ユニット</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>エディットにはモード(ページ)があり、それは階層構造とする</p>
-</li>
-<li>
-<p>操作子は 8個 + 1個 を1ユニットとする。このユニットを操作子ユニットとする。モード(ページ)内のパラメータは、この操作子ユニットを使用してエディットする</p>
-</li>
-<li>
-<p>1モード(ページ)内に9以上のパラメータが必要な場合は同ページ内での8パラメータを1セットとした単位での切り替えとする</p>
-</li>
-<li>
-<p>操作子ユニットは複数増設可能とする。増設した場合、各ユニット毎にカレントなモード(ページ)を持つ。すなわち操作子ユニットを1つ増設する毎に同時にエディットできるモードが1つ増える。</p>
-</li>
-<li>
-<p>1ユニットの中に含まれるロータリーエンコーダ 8 + 1 は、1個単位で取り外しが可能。消耗品なので、ユーザーが簡単に交換、メンテナンスできるようにする。</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_マトリクスユニット">マトリクスユニット</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>モード(ページ)の切り替えは、マトリクス状にボタンを配置(テンキーのようなもの)したマトリクスユニットにて行う。</p>
-</li>
-<li>
-<p>シンセの内部モジュールのパッチング指定など、接続関連の操作も担当する</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_マスターユニット">マスターユニット</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>マスターユニットには液晶画面とカーソルキーが備わる。</p>
-</li>
-<li>
-<p>音色ライブラリの管理、エクスクルーシブの送受信</p>
-</li>
-<li>
-<p>ユーザーが自身の所有する音源への対応モジュールを作成できるエディタ作成</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_全体">全体</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>マスターユニット及びマトリクスユニットは、全体で1ユニットのみ必要</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>マスターユニットに音色ライブラリアン機能を持たせることにより、もしVSTプラグイン対応したとしても
-個々の音源ごとにVSTプラグインに追加モジュールを用意する必要はなく、
-コントローラに対するVSTプラグイン一つを作れば済む。</p>
-</div>
-</div>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2021-02-05 14:01:08 +0900
+Last updated 2021-02-25 23:23:55 +0900
 </div>
 </div>
 </body>
